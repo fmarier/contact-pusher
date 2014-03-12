@@ -1,0 +1,3 @@
+- move to a certified B2G app (e.g. https://github.com/mozilla-b2g/gaia/pull/17105/files adds a test app, same thing)
+- switch to a system XHR to avoid requiring CORS (http://soledadpenades.com/2014/03/05/failproof-ajax-requests-in-firefox-os/)
+- read URL, username and password from a pref (settings example: apps/system/fxa/js/fxam_server_request.js, look for SettingsHelper)
