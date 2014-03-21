@@ -8,7 +8,7 @@ function reqListener() {
 function getCredentials() {
   navigator.id.get(function (assertion) {
     var data = {
-      debugaudience: 'http://localhost',
+      audience: 'http://localhost',
       assertion: assertion
     };
 
